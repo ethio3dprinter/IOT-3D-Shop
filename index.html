@@ -69,8 +69,8 @@
     </div>
   </nav>
 
-  
-  
+
+
 
   <div class="container">
     <br>
@@ -159,7 +159,7 @@
     <!--
     Neuer part
   -->
-  <br>
+    <br>
     <div class="row align-items-center">
       <div class="col-sm">
         <table class="table table-hover">
@@ -270,17 +270,19 @@
       <br>
       <h5> Choose Quality</h5>
       <select class="form-control">
-        <option>Low</option>
-        <option>Standart</option>
-        <option>Premium</option>
+        <option value="" selected disabled>-Please select-</option>
+        <option>Low: Layer height 0.25</option>
+        <option>Standart: Layer height 0.2</option>
+        <option>Premium: Layer height 0.15</option>
       </select>
       <br>
       <h5> Choose Size of your 3D-Part</h5>
       <select class="form-control">
 
-        <option>Big</option>
-        <option>Normal</option>
-        <option>Small</option>
+        <option value="" selected disabled>-Please select-</option>
+        <option>Big: Biges Side over 12cm</option>
+        <option>Normal: Bigest Side 12cm</option>
+        <option>Small: Bigest Side 5cm</option>
       </select>
       <br>
       <div class="form-group">
@@ -291,8 +293,11 @@
       </div>
     </form>
 
+    <button type="button" class="btn btn-success">Order Now</button>
+
     <div class="row align-items-center" id="Contact">
       <div class="col-sm">
+
 
         <h3>Contact us</h3>
       </div>
