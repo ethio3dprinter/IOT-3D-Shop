@@ -15,6 +15,20 @@
     (function (I, L, T, i, c, k, s) { if (I.iticks) return; I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] }; var h = T.head || T.documentElement; var e = T.createElement(i); var l = I.location; e.async = true; e.src = (L || c) + '/client/inject-v2.min.js'; h.insertBefore(e, h.firstChild); I.iticks.call = function (a, b) { I.iticks.queue.push([a, b]); }; })(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', 'pHRzLcJQt4vFFr4HL_c', {});
   </script>
 -->
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  Email.send({
+      SecureToken : "004365e9-8847-47c9-aa45-c6d1dce0fd6b",
+      To : 'ethio3dprinter@gmail.com',
+      From : "ethio3dprinter@gmail.com",
+      Subject : "TEST",
+      Body : "TESTBODY"
+  }).then(
+    message => alert(message) && console.log("SENDMAIL")
+  );
+
+</script>
   <style>
     html {
       scroll-behavior: smooth;
@@ -293,7 +307,7 @@
       </div>
     </form>
 
-    <button type="button" class="btn btn-success">Order Now</button>
+    <button type="button" onclick="Email.send()" class="btn btn-success">Order Now</button>
 
     <div class="row align-items-center" id="Contact">
       <div class="col-sm">
@@ -323,6 +337,10 @@
       </div>
     </div>
   </div>
+
+  <!-- SMTP EMAIL JavaScript -->
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
