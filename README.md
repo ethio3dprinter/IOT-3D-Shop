@@ -6,7 +6,7 @@ the user will fill a contact form all imporant information. once sent to operato
 ## process diagram
 here is the all process described in a BPMN diagram of the iot 3d shop 
 ## technologies
-HTML/CSS [link to learn html](https://www.tutorialspoint.com/html/index.htm)
+HTML/CSS [link to learn html](https://www.tutorialspoint.com/html/index.htm)  
 BPMN.IO [link to learn BPMN](https://www.bpmn.org)
 BOOTSTRAP[link to learn BOOTSTRAP](https://www.w3schools.com/bootstrap)
 JAVASCRIPT[link to learn JAVASCRIPT](https://www.w3schools.com/js/DEFAULT.asp)
