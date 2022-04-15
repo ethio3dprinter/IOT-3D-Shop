@@ -1,6 +1,6 @@
 # IOT-3D-Shop
 
-## descrition website
+## description website
 to enable the users to upload stl file for further printing.
 the user will fill a contact form all imporant information. once sent to operator will receive email with stl file and specification to print it.
 ## process diagram
