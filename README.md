@@ -8,7 +8,9 @@ here is the all process described in a BPMN diagram of the iot 3d shop
 ## technologies
 HTML/CSS [link to learn html](https://www.tutorialspoint.com/html/index.htm)  
 BPMN.IO [link to learn BPMN](https://www.bpmn.org)
-BOOTSTRAP[link to learn BOOTSTRAP](https://www.w3schools.com/bootstrap)
+
+
+BOOTSTRAP[link to learn BOOTSTRAP](https://www.w3schools.com/bootstrap)<br/>
 JAVASCRIPT[link to learn JAVASCRIPT](https://www.w3schools.com/js/DEFAULT.asp)
 SMTP[link to  documentation SMTP](https://smtpjs.com/)
 ## accounts
