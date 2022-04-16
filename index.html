@@ -54,7 +54,9 @@
               (document.getElementById("i-have-a-STL-file").checked == true &&
                 "Yes i have one") +
               "<br/>Quality : " +
-              document.getElementById("quality").value,
+              document.getElementById("quality").value+
+              "<br/>Quantity : " +
+              document.getElementById("quantity").value,
 
             Attachments: [
               {
@@ -376,6 +378,12 @@
         <label class="form-check-label" for="exampleRadios2">
           I dont have a STL-File and need help Desigin one
         </label>
+      </div>
+      <br />
+      
+      <div class="form-group">
+          <h5>Choose Quantity</h5>
+        <input type="number" class="form-control" id="quantity" placeholder="-Select quantity-" />
       </div>
       <br />
       <h5>Choose Quality</h5>
